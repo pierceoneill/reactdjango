@@ -194,7 +194,7 @@ CORS_ALLOW_ALL_ORIGINS = True
 
 
 # Dont forget to reset database connection and hide password
-#AWS_QUERYSTRING_AUTH = False
+AWS_QUERYSTRING_AUTH = False
 DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
 
 AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
